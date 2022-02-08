@@ -11,30 +11,18 @@
   <div class="tabs">
     <!-- Tab links -->
     <div class="tabs__tab">
-      <button class="tabs__tablinks" onclick="openCity(event, 'London')">London</button>
-      <button class="tabs__tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-      <button class="tabs__tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+      <button class="tabs__tablinks" onclick="tabsContent('Paris')">Paris</button>
+      <button class="tabs__tablinks" onclick="tabsContent('Toronto')">Toronto</button>
+      <button class="tabs__tablinks" onclick="tabsContent('London')">London</button>
+      <button class="tabs__tablinks" onclick="tabsContent('Boston')">Boston</button>
+      <button class="tabs__tablinks" onclick="tabsContent('Amsterdam')">Amsterdam</button>
+      <button class="tabs__tablinks" onclick="tabsContent('Houston')">Houston</button>
     </div>
     <!-- Tab content -->
     <div class="tabs_tabcontent-container">
-
-      <div id="London" class="tabs__tabcontent">
-        <h3>London</h3>
-        <p>London is the capital city of England.</p>
+      <div class="tabs__tabcontent">
       </div>
-
-      <div id="Paris" class="tabs__tabcontent">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
-      </div>
-
-      <div id="Tokyo" class="tabs__tabcontent">
-        <h3>Tokyo</h3>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-
     </div>
-
   </div>
 </body>
 

@@ -15,24 +15,25 @@
   justify-content: center;
 }
 
+
 /* Style the buttons that are used to open the tab content */
-.tabs__tab button {
+.tabs__tablinks {
   background-color: inherit;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 /* Change background color of buttons on hover */
-.tabs__tab button:hover {
+.tabs__tablinks:hover {
   background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
-.tabs__tab button.active {
+.tabs__tablinks.active {
   background-color: #ccc;
 }
 
@@ -42,4 +43,13 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  animation: fadeEffect 1s;
 }
+
+.tabs__tabcontent-condition{
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
